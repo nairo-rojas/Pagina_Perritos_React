@@ -4,7 +4,7 @@ import React from 'react'
 const footer = () => {
     return (
         <footer>
-           Es es el footer de la aplicación
+           Equipo ANTS 2021&#169;
         </footer>
     )
 };

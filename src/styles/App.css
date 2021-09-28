@@ -20,28 +20,39 @@ ul {
  }
 
  .mainContainer > footer{
-   background-color: red;
+   background-color: gray;
    padding: 10px;
+   color: #ffff;
+   text-align: center;
+   font-weight: bold;
  }
 
  .navbar {
   display: flex;
   justify-content: space-between;
   padding: 0px;
-  margin: 0px;
-  padding: 10px;
+  margin: 5px;
+  padding: 8px;
   background-color: rgb(214, 215, 223);
   border-bottom: 1px solid gray;
   box-shadow: 1px 1px gray;
+}
+.navbar>div {
+  align-items:center;
+  justify-content: space-between;
+ 
 }
 
 .navbar>li {
   display: flex;
   align-items: center;
+  margin: 4px;
 }
 
 .logo {
   height: 40px;
+  border-radius: 12px;
+  margin: 5px;
 }
 
 .botonGenerico {
@@ -49,6 +60,7 @@ ul {
   padding: 5px 10px;
   font-weight: bold;
   border-radius: 8px;
+  padding: 5px;
 }
 
 .botonGenerico:hover {
@@ -58,9 +70,10 @@ ul {
 /*crear una clase para botones principales y ajustar sus caracteristicas*/
 
 .mainButton {
-  background-color: rgb(65, 204, 52);
+  background-color: rgb(49, 47, 53);
   color: white;
-}
+  margin-left: 10px;
+  }
 /*agregar un subclase a la clase del boton principal para hacer otros ajustes*/
 
 .mainButton:hover {
@@ -72,11 +85,12 @@ ul {
 .secundaryButton {
   background-color: blue;
   color: white;
+  margin:4px;
 }
 
 .secundaryButton:hover {
   cursor: pointer;
-  box-shadow: 5px 5px gray;
+  box-shadow: 5px 5px rgb(29, 13, 55);
   transform: scale(1.1);
 }
 /*crear una clase para el boton buscar y aplicarle unas propiedades*/
@@ -152,3 +166,17 @@ ul {
 .backGroundCard{
   background-color: red;
 }
+
+.seccionHeadRight{
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+
+}
+
+.seccionHeadLeft{
+  display: inline-flex;
+  text-align: center;
+  justify-content: space-between;
+}
+
